@@ -6,6 +6,7 @@ import CustomEdges       from './flows/03-CustomEdges'
 import InteractiveFlow   from './flows/04-InteractiveFlow'
 import MiniMapAndControls from './flows/05-MiniMapAndControls'
 import FlowchartShapes from './flows/06-FlowchartShapes'
+import FlowchartEditor from './flows/07-FlowchartEditor'
 
 const demos = [
   { id: 1, title: '01 · Flujo básico',          component: <BasicFlow /> },
@@ -14,6 +15,7 @@ const demos = [
   { id: 4, title: '04 · Flujo interactivo',      component: <InteractiveFlow /> },
   { id: 5, title: '05 · MiniMap y Controls',     component: <MiniMapAndControls /> },
   { id: 6, title: '06 · Formas de diagrama', component: <FlowchartShapes /> },
+  { id: 7, title: '07 · Editor interactivo', component: <FlowchartEditor /> },
 ]
 
 export default function App() {
